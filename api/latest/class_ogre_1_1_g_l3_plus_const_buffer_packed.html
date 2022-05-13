@@ -1503,7 +1503,7 @@ template&lt;class Alloc &gt; </div>
 </div><div class="memdoc">
 
 <p>Async data read request. </p>
-<p >A ticket will be returned. Once the async transfer finishes, you can use the ticket to read the data from CPU. @See <a class="el" href="class_ogre_1_1_async_ticket.html" title="In Ogre 2.0 data structures, reading data from GPU back to CPU is asynchronous.">AsyncTicket</a> </p>
+<p >A ticket will be returned. Once the async transfer finishes, you can use the ticket to read the data from CPU. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_ogre_1_1_async_ticket.html" title="In Ogre 2.0 data structures, reading data from GPU back to CPU is asynchronous.">AsyncTicket</a> </dd></dl>
 
 </div>
 </div>
@@ -1638,7 +1638,7 @@ template&lt;class Alloc &gt; </div>
   <table class="params">
     <tr><td class="paramname">data</td><td>The data to transfer to the GPU. Caller is responsible for freeing the pointer. "data" starts at offset zero. i.e. dst[elementStart * mBytesPerElement] = data[0]; </td></tr>
     <tr><td class="paramname">elementStart</td><td>The start region, usually zero. </td></tr>
-    <tr><td class="paramname">elementCount</td><td>Size, in number of elements, of data. Must be less than @getNumElements - elementStart </td></tr>
+    <tr><td class="paramname">elementCount</td><td>Size, in number of elements, of data. Must be less than <a class="el" href="class_ogre_1_1_buffer_packed.html#a024eb2f73c90ee052b3b1b275b0c83ef">getNumElements()</a> - elementStart </td></tr>
   </table>
   </dd>
 </dl>

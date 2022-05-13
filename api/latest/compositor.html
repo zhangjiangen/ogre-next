@@ -356,7 +356,7 @@ Target</h2>
 <div class="line">        shadows     NormalShadows reuse</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="anamespace_ogre_1_1_texture_source_type_html_a487889f4cfc926c4eaaf01e2f4e68c5aa602ee38ea2347d313beab4dabced99fb"><div class="ttname"><a href="namespace_ogre_1_1_texture_source_type.html#a487889f4cfc926c4eaaf01e2f4e68c5aa602ee38ea2347d313beab4dabced99fb">Ogre::TextureSourceType::Compositor</a></div><div class="ttdeci">@ Compositor</div><div class="ttdoc">Created by compositor, for shadow mapping.</div><div class="ttdef"><b>Definition:</b> OgreTextureGpu.h:181</div></div>
+<div class="ttc" id="anamespace_ogre_1_1_texture_source_type_html_a487889f4cfc926c4eaaf01e2f4e68c5aa602ee38ea2347d313beab4dabced99fb"><div class="ttname"><a href="namespace_ogre_1_1_texture_source_type.html#a487889f4cfc926c4eaaf01e2f4e68c5aa602ee38ea2347d313beab4dabced99fb">Ogre::TextureSourceType::Compositor</a></div><div class="ttdeci">@ Compositor</div><div class="ttdoc">Created by compositor.</div><div class="ttdef"><b>Definition:</b> OgreTextureGpu.h:181</div></div>
 </div><!-- fragment --><p ><b>Note that not always <code>target_level_barrier yes</code> can be successful.</b></p>
 <p >For example if pass <code>A</code> needs texture <code>X</code> to be in state <code>Texture</code> for sampling but pass <code>C</code> needs that same texture in state <code>Uav</code> then we have a contradiction as we can't transition to two states at the same time.</p>
 <p >The only solution is to break up the passes and issue two barriers. Note that you can however issue break ups manually:</p>
@@ -1280,7 +1280,7 @@ Shadow map atlas &amp; Point Lights</h2>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="anamespace_ogre_html"><div class="ttname"><a href="namespace_ogre.html">Ogre</a></div><div class="ttdef"><b>Definition:</b> OgreHlmsBufferManager.h:62</div></div>
+<div class="ttc" id="anamespace_ogre_html"><div class="ttname"><a href="namespace_ogre.html">Ogre</a></div><div class="ttdef"><b>Definition:</b> OgreAtmosphereNpr.h:43</div></div>
 </div><!-- fragment --><p >See Samples/Media/2.0/scripts/Compositors/ShadowMapDebugging.compositor for an example of a full script that can support directional, spot &amp; point lights all in one, in a single atlas.</p>
 <h2><a class="anchor" id="CompositorShadowNodesReuseEtc"></a>
 Reuse, recalculate and first</h2>
@@ -1596,7 +1596,7 @@ Per-Workspace offset and scale</h2>
 <div class="line"><a class="code hl_typedef" href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Real</a> top    = mDefinition-&gt;mVpTop       + vpModifier.y;</div>
 <div class="line"><a class="code hl_typedef" href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Real</a> width  = mDefinition-&gt;mVpWidth     * vpModifier.z;</div>
 <div class="line"><a class="code hl_typedef" href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Real</a> height = mDefinition-&gt;mVpHeight    * vpModifier.w;</div>
-<div class="ttc" id="anamespace_ogre_html_aa3a7b6dfb905e6572d62f0dfa3d4274d"><div class="ttname"><a href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Ogre::Real</a></div><div class="ttdeci">float Real</div><div class="ttdoc">Software floating point type.</div><div class="ttdef"><b>Definition:</b> OgrePrerequisites.h:86</div></div>
+<div class="ttc" id="anamespace_ogre_html_aa3a7b6dfb905e6572d62f0dfa3d4274d"><div class="ttname"><a href="namespace_ogre.html#aa3a7b6dfb905e6572d62f0dfa3d4274d">Ogre::Real</a></div><div class="ttdeci">float Real</div><div class="ttdoc">Software floating point type.</div><div class="ttdef"><b>Definition:</b> OgrePrerequisites.h:109</div></div>
 </div><!-- fragment --><p >This means that to render to the left eye, you would need to specify <code>Vector4( 0.0f, 0.0f, 0.5f, 1.0f )</code> and to render to the right eye you would specify <code>Vector4( 0.5f, 0.0f, 0.5f, 1.0f )</code>.</p>
 <h2><a class="anchor" id="CompositorWorkspacesStereoViewportMask"></a>
 Viewport modifier mask</h2>

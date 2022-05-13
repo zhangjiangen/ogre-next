@@ -120,6 +120,7 @@ var hierarchy =
     [ "Ogre::FastArray< PartitionedSubMesh >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< PerThreadData * >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< Pool >", "class_ogre_1_1_fast_array.html", null ],
+    [ "Ogre::FastArray< Preset >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< ProfileSample * >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< QueuedInstance >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< QueuedRenderable >", "class_ogre_1_1_fast_array.html", null ],
@@ -295,6 +296,9 @@ var hierarchy =
         [ "Ogre::MetalAsyncTicket", "class_ogre_1_1_metal_async_ticket.html", null ],
         [ "Ogre::NULLAsyncTicket", "class_ogre_1_1_n_u_l_l_async_ticket.html", null ],
         [ "Ogre::VulkanAsyncTicket", "class_ogre_1_1_vulkan_async_ticket.html", null ]
+      ] ],
+      [ "Ogre::AtmosphereComponent", "class_ogre_1_1_atmosphere_component.html", [
+        [ "Ogre::AtmosphereNpr", "class_ogre_1_1_atmosphere_npr.html", null ]
       ] ],
       [ "Ogre::Bone", "class_ogre_1_1_bone.html", null ],
       [ "Ogre::BufferPacked", "class_ogre_1_1_buffer_packed.html", [
@@ -995,6 +999,7 @@ var hierarchy =
     [ "Ogre::ArraySphere", "class_ogre_1_1_array_sphere.html", null ],
     [ "Ogre::ArrayVector3", "class_ogre_1_1_array_vector3.html", null ],
     [ "Ogre::AsyncTextureTicket::DelayedDownload", "struct_ogre_1_1_async_texture_ticket_1_1_delayed_download.html", null ],
+    [ "Ogre::AtmosphereNpr::Preset", "struct_ogre_1_1_atmosphere_npr_1_1_preset.html", null ],
     [ "Ogre::AtomicObject< T >", "class_ogre_1_1_atomic_object.html", null ],
     [ "Ogre::AtomicScalar< T >", "class_ogre_1_1_atomic_scalar.html", null ],
     [ "Ogre::AxisAlignedBox", "class_ogre_1_1_axis_aligned_box.html", null ],
@@ -1493,6 +1498,7 @@ var hierarchy =
       [ "Ogre::GLSLShader::CmdOutputOperationType", "class_ogre_1_1_g_l_s_l_shader_1_1_cmd_output_operation_type.html", null ],
       [ "Ogre::GLSLShader::CmdPreprocessorDefines", "class_ogre_1_1_g_l_s_l_shader_1_1_cmd_preprocessor_defines.html", null ],
       [ "Ogre::HighLevelGpuProgram::CmdEnableIncludeHeader", "class_ogre_1_1_high_level_gpu_program_1_1_cmd_enable_include_header.html", null ],
+      [ "Ogre::HighLevelGpuProgram::CmdUseHlmsParser", "class_ogre_1_1_high_level_gpu_program_1_1_cmd_use_hlms_parser.html", null ],
       [ "Ogre::HollowEllipsoidEmitter::CmdInnerX", "class_ogre_1_1_hollow_ellipsoid_emitter_1_1_cmd_inner_x.html", null ],
       [ "Ogre::HollowEllipsoidEmitter::CmdInnerY", "class_ogre_1_1_hollow_ellipsoid_emitter_1_1_cmd_inner_y.html", null ],
       [ "Ogre::HollowEllipsoidEmitter::CmdInnerZ", "class_ogre_1_1_hollow_ellipsoid_emitter_1_1_cmd_inner_z.html", null ],
